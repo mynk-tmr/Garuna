@@ -1,7 +1,7 @@
+import { HeartIcon } from '@heroicons/react/24/solid'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './app.css'
-import { HeartIcon } from '@heroicons/react/24/solid'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

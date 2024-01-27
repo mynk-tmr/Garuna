@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Project requirements
-resources/
+external/
