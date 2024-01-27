@@ -10,6 +10,7 @@ export default {
         crimson: "#D51635",
         ice: "#F2F2F2",
         dust: "#464646",
+        sky: "#EFF3FF",
       },
       fontFamily: {
         sans: "Poppins , sans-serif",

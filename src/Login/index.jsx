@@ -55,7 +55,7 @@ const Login = () => {
           <UserCircleIcon className={iconStyles} /> Create Account
         </a>
       </section>
-      <section className="p-12 bg-[#EFF3FF] h-full grid gap-y-4">
+      <section className="p-12 bg-sky h-full grid gap-y-4">
         <h2 className="text-2xl font-exbold">
           Welcome to <GarunSpan />
         </h2>
