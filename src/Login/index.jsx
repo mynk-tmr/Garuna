@@ -1,4 +1,5 @@
 import heroImgUrl from "./home_page_col_2.png";
+import GarunSpan from "../reusables/GarunSpan";
 import {
   UserCircleIcon,
   EnvelopeIcon,
@@ -13,7 +14,7 @@ const Login = () => {
     <main className="grid md:grid-cols-2 gap-y-10 grid-cols-1 min-h-svh font-bold place-items-center text-center">
       <section>
         <h2 className="text-2xl font-exbold my-4">
-          <span className="text-crimson">Garun</span> Tracker
+          <GarunSpan />
         </h2>
         <p>Log in to your account</p>
         <form className="mt-10 mb-4 grid gap-8">
@@ -56,7 +57,7 @@ const Login = () => {
       </section>
       <section className="p-12 bg-[#EFF3FF] h-full grid gap-y-4">
         <h2 className="text-2xl font-exbold">
-          Welcome to <span className="text-crimson">Garun</span>
+          Welcome to <GarunSpan />
         </h2>
         <h3>Boost your customer satisfaction and business reputation</h3>
         <img src={heroImgUrl} alt="People having a meeting about issues" />
