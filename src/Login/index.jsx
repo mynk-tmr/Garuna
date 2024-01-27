@@ -1,8 +1,14 @@
 import heroImgUrl from "./home_page_col_2.png";
+import {
+  UserCircleIcon,
+  EnvelopeIcon,
+  LockClosedIcon,
+} from "@heroicons/react/24/solid";
 
 const Login = () => {
-  const inputStyles =
-    "border-b-2 p-2 outline-transparent focus:border-b-crimson";
+  const inputDivStyles =
+    "text-start border-b-2 focus-within:text-crimson focus-within:border-crimson";
+  const iconStyles = "w-6 inline translate-y-[-5%]";
   return (
     <main className="grid md:grid-cols-2 gap-y-10 grid-cols-1 min-h-svh font-bold place-items-center text-center">
       <section>
@@ -11,16 +17,22 @@ const Login = () => {
         </h2>
         <p>Log in to your account</p>
         <form className="mt-10 mb-4 grid gap-8">
-          <input
-            type="email"
-            placeholder="Email Address"
-            className={inputStyles}
-          />
-          <input
-            type="password"
-            placeholder="Password"
-            className={inputStyles}
-          />
+          <div className={inputDivStyles}>
+            <EnvelopeIcon className={`${iconStyles} opacity-50`} />
+            <input
+              type="email"
+              placeholder={"Email Address"}
+              className="p-2 outline-none text-bloo"
+            />
+          </div>
+          <div className={inputDivStyles}>
+            <LockClosedIcon className={`${iconStyles} opacity-50`} />
+            <input
+              type="password"
+              placeholder={"Password"}
+              className="p-2 outline-none text-bloo"
+            />
+          </div>
           <div className="grid grid-cols-2 w-[44ch]">
             <label className="text-start">
               <input type="checkbox" className="mr-2 scale-[1.4] accent-navy" />
@@ -36,8 +48,10 @@ const Login = () => {
             Log In
           </button>
         </form>
-        <a href="#" className="text-crimson hover:underline">
-          Create Account
+        <a
+          href="#"
+          className="text-crimson hover:text-purple-900 hover:border-b-4">
+          <UserCircleIcon className={iconStyles} /> Create Account
         </a>
       </section>
       <section className="p-12 bg-[#EFF3FF] h-full grid gap-y-4">
