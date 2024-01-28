@@ -15,6 +15,9 @@ export default {
       fontFamily: {
         sans: "Poppins , sans-serif",
       },
+      boxShadow: {
+        rd: "4px 4px 4px lightgray",
+      },
     },
   },
   plugins: [],
