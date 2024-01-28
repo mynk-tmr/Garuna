@@ -15,24 +15,28 @@ const Home = () => {
     <main className="grid md:grid-cols-[1fr_6fr] h-screen">
       <aside className="bg-blue-100 p-6">
         <GarunSpan className="font-bold text-xl" />
-        <menu className="mt-8 grid gap-y-8">
-          <li className="hover:text-crimson">
+        <menu className="mt-8 grid gap-y-8 hover:*:text-crimson">
+          <li>
             <RectangleGroupIcon className={iconStyles} />
             Dashboard
           </li>
-          <li className="hover:text-crimson">
-            <HandThumbDownIcon className={iconStyles} /> Issues
+          <li>
+            <HandThumbDownIcon className={iconStyles} />
+            Issues
           </li>
-          <li className="hover:text-crimson">
-            <SparklesIcon className={iconStyles} /> Services
+          <li>
+            <SparklesIcon className={iconStyles} />
+            Services
           </li>
-          <li className="hover:text-crimson">
-            <ClipboardDocumentCheckIcon className={iconStyles} /> Reports
+          <li>
+            <ClipboardDocumentCheckIcon className={iconStyles} />
+            Reports
           </li>
-          <li className="hover:text-crimson">
-            <AcademicCapIcon className={iconStyles} /> SuperUser
+          <li>
+            <AcademicCapIcon className={iconStyles} />
+            SuperUser
           </li>
-          <li className="hover:text-crimson mt-20">
+          <li className="mt-20">
             <CogIcon className={iconStyles} /> Settings
           </li>
         </menu>
