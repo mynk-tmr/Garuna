@@ -1,4 +1,5 @@
 import GarunSpan from "../reusables/GarunSpan";
+import Dashboard from "./Dashboard";
 import {
   RectangleGroupIcon,
   HandThumbDownIcon,
@@ -32,6 +33,7 @@ const Home = () => {
           ))}
         </menu>
       </aside>
+      <Dashboard />
     </main>
   );
 };
